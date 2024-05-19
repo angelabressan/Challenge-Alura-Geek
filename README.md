@@ -16,7 +16,7 @@
 
  ## 💻 Demonstração
 
- 
+![MacBook Pro-1716149367583](https://github.com/angelabressan/Challenge-Alura-Geek/assets/120230720/cc7e4ba8-977a-4e75-8806-2c640e55fd5b)
 
 
  ## 🚀 Tecnologias Utilizadas
