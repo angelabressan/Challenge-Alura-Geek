@@ -1,0 +1,58 @@
+/* Estilos para telas maiores que 768px e menores que 1025px (tablets e desktops) */
+@media (min-width: 768px) and (max-width: 1025px) {
+
+    .header {
+        text-align: center; /* Centraliza o conteúdo */
+    }
+
+    .logo-container img {
+        max-width: 100%;
+        margin-bottom: 10px; /* Adiciona espaço abaixo da logo */
+    }
+
+    .content-container {
+        display: flex;
+        justify-content: space-between; /* Distribui os elementos lado a lado */
+        align-items: flex-start; /* Alinha os elementos ao topo */
+    }
+
+    .images-container {
+        width: 80%; /* Ocupa toda a largura disponível */
+        padding-left: 100px;
+    }
+
+    .image {
+        width: calc(60% - 15px); 
+        margin-bottom: 10px; /* Espaço entre as imagens */
+    }
+
+    /* Estilos específicos para o formulário */
+
+    .add-produto {
+        font-family:'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 22px;
+        line-height: 24px;
+        display: flex;
+        margin-left: 25px;
+    }
+
+    .formulario {
+        width: 100%; /* Ocupa toda a largura disponível */
+        background-color: #D6D6D6;
+        padding: 20px;
+        margin-bottom: 10px; /* Espaçamento entre o formulário e as imagens */
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-right: 200px; /* Alterado para alinhar o formulário à direita */
+        background-color: #D6D6D6; /* Cor do formulário */
+        padding: 40px; /* Espaçamento interno */
+    }
+
+}

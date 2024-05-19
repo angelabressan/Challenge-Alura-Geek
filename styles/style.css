@@ -1,0 +1,127 @@
+@import url('./responsive-mobile.css');
+@import url('./responsive-tablet');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D6D6D6;
+}
+
+/* LOGO */
+
+.header {
+    padding: 20px 0; /* Adiciona um espaçamento interno no topo e na base do cabeçalho */
+    text-align: center; /* Centraliza o conteúdo dentro do cabeçalho */
+}
+
+.logo-container {
+    display: inline-block; /* Permite centralizar a logo */
+}
+
+.logo-container img {
+    max-width: 50%; /* Define um tamanho máximo para a logo */
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+/* Outros estilos específicos para os elementos do formulário (labels, inputs etc.) */
+/* ... */
+
+.content-container {
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos lado a lado */
+    align-items: flex-start; /* Alinha os elementos ao topo */
+}
+
+/* CARDS */
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribui o espaço entre as imagens */
+    width: 100%; /* Define que o container de imagens ocupa toda a largura disponível */
+    margin: 64px auto 300px; /* Centraliza o container verticalmente e adiciona margem na parte inferior */
+    overflow-x: auto; /* Adiciona scroll horizontal apenas quando necessário */
+    padding: 0 30px; /* Adiciona um espaçamento interno para evitar que as imagens fiquem muito próximas das bordas */
+}
+
+.image {
+    width: calc(26% - 35px); /* Define a largura das imagens para ocupar cerca de um terço do container, com margem entre elas */
+    max-width: 100%; /* Define uma largura máxima para as imagens */
+    margin-bottom: 60px; /* Aumenta a margem inferior para separar as linhas */
+}
+
+/* Estilos específicos para o formulário */
+
+.add-produto {
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    margin-left: 70px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    height: 517px;
+    margin-left: auto; /* Alterado para alinhar o formulário à direita */
+    margin-right: 0; /* Alterado para alinhar o formulário à direita */
+    background-color: #D6D6D6; /* Cor do formulário */
+    padding: 40px; /* Espaçamento interno */
+}
+
+label {
+    font-weight: bold;
+    margin-top: 20px; /* Alterado para reduzir a margem superior */
+    margin-bottom: 20px;
+    
+}
+
+input {
+    padding: 12px;
+    width: 80%; /* Alterado para ocupar 100% da largura do formulário */
+    margin-bottom: 18px;
+    border: 3px solid #03318C; /* Alterado para uma borda mais sutil */
+    border-radius: 60px; /* Borda arredondada */
+}
+
+button {
+    color: #D6D6D6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #5D04D9;
+}
+
+button[type="reset"] {
+    background-color: #040404;
+}
+
+/* Estilos para o footer */
+.footer {
+    background-color: #D6D6D6; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.social-links {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 5px; /* Espaçamento entre os links */
+    margin-bottom: 80px;
+    width: auto;
+   
+}
+
+.footer-img {
+    width: 100%;
+}
+

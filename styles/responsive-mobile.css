@@ -1,0 +1,76 @@
+/* Estilos para telas menores que 767px (celulares) */
+@media (max-width: 767px) {
+
+    .header {
+        text-align: center; /* Centraliza o conteúdo */
+    }
+
+    .logo-container img {
+        max-width: 100%;
+        margin-bottom: 10px; /* Adiciona espaço abaixo da logo */
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column-reverse; 
+        align-items: center; /* Centraliza os elementos */
+        margin-top: 10px; /* Adiciona espaço acima das imagens */
+    }
+
+    .images-container {
+        padding-left: 80px;
+    }
+
+    .image {
+        width: calc(60% - 15px); 
+        margin-bottom: 10px; /* Espaço entre as imagens */
+    }
+
+    /* Estilos específicos para o formulário */
+
+    .add-produto {
+        font-family:'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 22px;
+        line-height: 24px;
+        display: flex;
+        margin-left: 25px;
+    }
+    
+    .formulario {
+        width: 90%;
+        background-color: #D6D6D6;
+        padding: 10px;
+        margin-right: 30px;
+        box-sizing: border-box; /* Garante que a largura do formulário inclua a margem e o padding */
+    }
+
+    form {
+        width: 100%; /* Ocupa toda a largura do formulário */
+        max-width: 400px; /* Define uma largura máxima para o formulário */
+        margin: 0 auto; /* Centraliza o formulário horizontalmente */
+    }
+
+/* Estilos para o footer */
+.footer {
+    background-color: #D6D6D6; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.social-links {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 5px; /* Espaçamento entre os links */
+    margin-bottom: 80px;
+    width: 80%;
+   
+}
+
+.footer-img {
+    width: 100%;
+    height: auto;
+}
+
+}
